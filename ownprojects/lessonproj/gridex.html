@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examples of css grid: </title>
+    <style>
+        .container1 {
+            display: grid;
+            grid-template-columns: auto auto;
+            gap: 10px;
+            background-color: #2196F3;
+            padding: 10px;
+          }
+        .container1 > div {
+            background-color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+            padding: 20px 0;
+            font-size: 30px;
+        }
+        .container2 {
+            display: grid;
+            grid-template-columns: auto auto;
+            gap: 10px;
+            background-color: #2196F3;
+            padding: 10px;
+            grid-template-rows: 80px 200px auto;
+        }
+        .container2 > div {
+            background-color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+            padding: 20px 0;
+            font-size: 30px;
+        }
+        .container3 {
+            display: grid;
+            grid-template-columns: auto auto;
+            gap: 10px;
+            background-color: #2196F3;
+            padding: 10px;
+            grid-template-rows: 80px 200px auto;
+            justify-content: space-evenly;
+        }
+        .container3 > div {
+            background-color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+            padding: 20px 0;
+            font-size: 30px;
+        }
+        .container4 {
+            display: grid;
+            grid-template-columns: auto auto;
+            gap: 10px;
+            background-color: #2196F3;
+            padding: 10px;
+            grid-template-rows: 80px 200px auto;
+            justify-content: space-around;
+        }
+        .container4 > div {
+            background-color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+            padding: 20px 0;
+            font-size: 30px;
+        }
+        .container5 {
+            display: grid;
+            grid-template-columns: auto auto;
+            gap: 10px;
+            background-color: #2196F3;
+            padding: 10px;
+            grid-template-rows: 80px 200px auto;
+            justify-content: space-between;
+        }
+        .container5 > div {
+            background-color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+            padding: 20px 0;
+            font-size: 30px;
+        }
+        .container6 {
+            display: grid;
+            grid-template-columns: auto auto;
+            gap: 10px;
+            background-color: #2196F3;
+            padding: 10px;
+            grid-template-rows: 80px 200px auto;
+            justify-content: center;
+        }
+        .container6 > div {
+            background-color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+            padding: 20px 0;
+            font-size: 30px;
+        }
+        .container7 {
+            display: grid;
+            grid-template-columns: auto auto;
+            gap: 10px;
+            background-color: #2196F3;
+            padding: 10px;
+            grid-template-rows: 80px 200px auto;
+            justify-content: start;
+        }
+        .container7 > div {
+            background-color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+            padding: 20px 0;
+            font-size: 30px;
+        }
+        .container8 {
+            display: grid;
+            grid-template-columns: auto auto;
+            gap: 10px;
+            background-color: #2196F3;
+            padding: 10px;
+            grid-template-rows: 80px 200px auto;
+            justify-content: end;
+        }
+        .container8 > div {
+            background-color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+            padding: 20px 0;
+            font-size: 30px;
+        }
+        .container9 {
+            height: 400px;
+            display: grid;
+            grid-template-columns: auto auto;
+            gap: 10px;
+            background-color: #2196F3;
+            padding: 10px;
+            align-content: center;
+        }
+        .container9 > div {
+            background-color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+            padding: 20px 0;
+            font-size: 30px;
+        }
+        .container10 {
+            height: 400px;
+            display: grid;
+            grid-template-columns: auto auto;
+            gap: 10px;
+            background-color: #2196F3;
+            padding: 10px;
+            align-content: space-evenly;
+        }
+        .container10 > div {
+            background-color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+            padding: 20px 0;
+            font-size: 30px;
+        }
+        .container11 {
+            height: 400px;
+            display: grid;
+            grid-template-columns: auto auto;
+            gap: 10px;
+            background-color: #2196F3;
+            padding: 10px;
+            align-content: space-around;
+        }
+        .container11 > div {
+            background-color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+            padding: 20px 0;
+            font-size: 30px;
+        }
+        .container12 {
+            height: 400px;
+            display: grid;
+            grid-template-columns: auto auto;
+            gap: 10px;
+            background-color: #2196F3;
+            padding: 10px;
+            align-content: space-between;
+        }
+        .container12 > div {
+            background-color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+            padding: 20px 0;
+            font-size: 30px;
+        }
+        .container13 {
+            height: 400px;
+            display: grid;
+            grid-template-columns: auto auto;
+            gap: 10px;
+            background-color: #2196F3;
+            padding: 10px;
+            align-content: start;
+        }
+        .container13 > div {
+            background-color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+            padding: 20px 0;
+            font-size: 30px;
+        }
+        .container14 {
+            height: 400px;
+            display: grid;
+            grid-template-columns: auto auto;
+            gap: 10px;
+            background-color: #2196F3;
+            padding: 10px;
+            align-content: end;
+        }
+        .container14 > div {
+            background-color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+            padding: 20px 0;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h3>grid-template-columns example: </h3> 
+      <div class="container1"> 
+        <div>nur</div> 
+        <div>nur</div> 
+        <div>nur</div> 
+        <div>nur</div> 
+        <div>nur</div> 
+        <div>nur</div>
+      </div> 
+      <h3>Rows settings example: </h3>
+      <div class="container2"> 
+        <div>nur</div> 
+        <div>nur</div> 
+        <div>nur</div> 
+        <div>nur</div> 
+        <div>nur</div> 
+        <div>nur</div>
+      </div>
+      <h3>Justify content:space-evenly example: </h3>
+      <div class="container3"> 
+        <div>nur</div> 
+        <div>nur</div> 
+        <div>nur</div> 
+        <div>nur</div> 
+        <div>nur</div> 
+        <div>nur</div>
+      </div>
+      <h3>Space around example: </h3>
+      <div class="container4"> 
+        <div>nur</div> 
+        <div>nur</div> 
+        <div>nur</div> 
+        <div>nur</div> 
+        <div>nur</div> 
+        <div>nur</div>
+      </div>
+      <h3>Space between example: </h3>
+      <div class="container5"> 
+        <div>nur</div> 
+        <div>nur</div> 
+        <div>nur</div> 
+        <div>nur</div> 
+        <div>nur</div> 
+        <div>nur</div>
+      </div>
+      <h3>Justify-content:center example: </h3>
+      <div class="container6"> 
+        <div>nur</div> 
+        <div>nur</div> 
+        <div>nur</div> 
+        <div>nur</div> 
+        <div>nur</div> 
+        <div>nur</div>
+      </div>
+      <h3>Justify-content:start example: </h3>
+      <div class="container7"> 
+        <div>nur</div> 
+        <div>nur</div> 
+        <div>nur</div> 
+        <div>nur</div> 
+        <div>nur</div> 
+        <div>nur</div>
+      </div>
+      <h3>Justify-content: end example: </h3>
+      <div class="container8"> 
+        <div>nur</div> 
+        <div>nur</div> 
+        <div>nur</div> 
+        <div>nur</div> 
+        <div>nur</div> 
+        <div>nur</div>
+      </div> 
+      <h3>Align-content:center example: </h3>
+      <div class="container9"> 
+        <div>nur</div> 
+        <div>nur</div> 
+        <div>nur</div> 
+      </div> 
+      <h3>Align-content:space-evenly example: </h3>
+      <div class="container10"> 
+        <div>nur</div> 
+        <div>nur</div> 
+        <div>nur</div> 
+        <div>nur</div> 
+        <div>nur</div> 
+        <div>nur</div>
+      </div> 
+      <h3>Align-content:space-round example: </h3>
+      <div class="container11"> 
+        <div>nur</div> 
+        <div>nur</div> 
+        <div>nur</div> 
+        <div>nur</div> 
+        <div>nur</div> 
+        <div>nur</div>
+      </div>
+      <h3>Align-content:space-between example: </h3>
+      <div class="container12"> 
+        <div>nur</div> 
+        <div>nur</div> 
+        <div>nur</div> 
+        <div>nur</div> 
+        <div>nur</div> 
+        <div>nur</div>
+      </div> 
+      <h3>Align-content :start example: </h3>
+      <div class="container13"> 
+        <div>nur</div> 
+        <div>nur</div> 
+        <div>nur</div> 
+        <div>nur</div> 
+        <div>nur</div> 
+        <div>nur</div>
+      </div> 
+      <h3>Align-content :end example: </h3>
+      <div class="container14"> 
+        <div>nur</div> 
+        <div>nur</div> 
+        <div>nur</div> 
+        <div>nur</div> 
+        <div>nur</div> 
+        <div>nur</div>
+      </div> 
+</body>
+</html>
